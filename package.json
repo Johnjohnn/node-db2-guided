@@ -5,12 +5,14 @@
 		"start": "node index.js"
 	},
 	"devDependencies": {
+		"dotenv": "^8.2.0",
 		"nodemon": "^2.0.5"
 	},
 	"dependencies": {
 		"express": "^4.17.1",
 		"helmet": "^4.1.1",
 		"knex": "^0.21.6",
+		"pg": "^8.5.1",
 		"sqlite3": "^5.0.0"
 	}
 }
